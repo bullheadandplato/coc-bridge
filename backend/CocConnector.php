@@ -16,7 +16,6 @@ class CocConnector implements CocOperations
     public function listClanMembers()
     {
         $context=CocUtils::getRequestHeaders();
-        print_r($context);
         $result=fopen($this->api_url.CommonConstants::OUR_CLAN_TAG,'r',false,$context);
         return $result;
     }

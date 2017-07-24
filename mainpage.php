@@ -7,8 +7,5 @@
  */
 include ('backend/CocConnector.php');
 $coc=new CocConnector();
-echo "main paged loaded";
 $result= $coc->listClanMembers();
-$val=json_decode($result);
-
 echo stream_get_contents($result);
