@@ -1,0 +1,13 @@
+<?php
+/**
+ * Created by PhpStorm.
+ * User: bullhead
+ * Date: 7/24/17
+ * Time: 10:25 PM
+ */
+
+class CommonConstants
+{
+     const OUR_CLAN_TAG="%23CJJQ80QL"; //in url format #CJJQ80QL
+     const KEY_TOKEN="eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiIsImtpZCI6IjI4YTMxOGY3LTAwMDAtYTFlYi03ZmExLTJjNzQzM2M2Y2NhNSJ9.eyJpc3MiOiJzdXBlcmNlbGwiLCJhdWQiOiJzdXBlcmNlbGw6Z2FtZWFwaSIsImp0aSI6ImMxYmU0ZmJhLWFlZDUtNGJjOS1hMzEwLWJmMWYxNzJkMTg5NSIsImlhdCI6MTUwMDkxNzA5NSwic3ViIjoiZGV2ZWxvcGVyL2E2YjFjYWRmLTQ1Y2UtY2M1NS0wMzUyLTY2YmQwYmY4MGIxMSIsInNjb3BlcyI6WyJjbGFzaCJdLCJsaW1pdHMiOlt7InRpZXIiOiJkZXZlbG9wZXIvc2lsdmVyIiwidHlwZSI6InRocm90dGxpbmcifSx7ImNpZHJzIjpbIjUwLjg3LjI0OS4xODgiXSwidHlwZSI6ImNsaWVudCJ9XX0.JgqgaFY2Gb8EEyEYunf30GKUFzJMt-Xsc0y7sW6LZGglAy1wzmHWA5z52jeoMxGyrROV1A2HqYhgQLYkrfmKmg";
+}
