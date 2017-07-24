@@ -6,4 +6,4 @@
  * Time: 11:44 PM
  *
  */
-include('login.html');
+include('welcome.html');
