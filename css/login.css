@@ -57,19 +57,30 @@ body{
   z-index:10000;
 }
 .form button {
-  text-transform: uppercase;
-  outline: 0;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  font-family: 'Oswald', Arial;
   background: #4caf50;
-  width: 100%;
-  border: 0;
-  padding: 15px;
-  color: #000000;
-  font-size: 14px;
-  -webkit-transition: all 0.3 ease;
-  transition: all 0.3 ease;
-  cursor: pointer;
-  box-shadow: 0 0 5px 1px #969696;
+  color: #000;
+  border: none;
+  font-size: 24px;
+  font-weight: 500;
+  padding: 12px 30px;
+  position: relative;
+  top: 3px;
+  left: -10px;
+  -webkit-transition: all .3s ease;
+  -moz-transition: 	all .3s ease;
+  -ms-transition: 	all .3s ease;
+  -o-transition: 		all .3s ease;
+  transition: 		all .3s ease;
 
+}
+h1{
+  font-family: 'Oswald', Arial;
+  color: #4caf50;
+  font-weight: 500;
 }
 .form button:hover,.form button:active,.form button:focus {
   color: white;
