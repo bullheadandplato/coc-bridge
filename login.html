@@ -5,6 +5,7 @@
   <title>Mad Hatters|The best</title>
   <link href='http://fonts.googleapis.com/css?family=Oswald:400,300,700' rel='stylesheet' type='text/css'>
       <link rel="stylesheet" href="css/login.css">
+  <link rel="stylesheet" href="css/showYtVideo.css">
 </head>
 
 <body>
@@ -18,6 +19,10 @@
       <input type="text" placeholder="coc player TAG"/>
       <button>create</button>
       <p class="message">Already registered? <a href="#">Sign In</a></p>
+     <p class="message"> <button class="show-modal" href="">
+        How to get player tag?
+      </button>
+     </p>
     </form>
     <form class="login-form">
       <input type="text" placeholder="username"/>
@@ -30,6 +35,15 @@
   <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
 
     <script src="js/login.js"></script>
-
+<script>
+jQuery(document).ready(function ($) {
+$('.show-modal').on('click', function () {
+$.showYtVideo({
+videoId: 'uVdV-lxRPFo'
+});
+});
+});
+</script>
+<script src="js/jquery.showYtVideo.js"></script>
 </body>
 </html>

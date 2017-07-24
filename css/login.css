@@ -89,6 +89,12 @@ h1{
 .form button:hover,.form button:active,.form button:focus {
   color: white;
 }
+.message button{
+  font-size: 14px;
+  background: transparent;
+    border: thin #4caf50 solid;
+  color: #4caf50;
+}
 .form .message {
   margin: 15px 0 0;
   color: #b3b3b3;
