@@ -11,8 +11,8 @@ class CocUtils
     public static function getRequestHeaders(){
         $context = stream_context_create(array(
             'http' => array(
-                'method:'=>"GET",
-                'header' => "Accept: application/json\r\n authorization: Bearer " .CommonConstants::KEY_TOKEN,
+                'method'=>"GET",
+                'header' => "Accept: application/json\r\nauthorization: Bearer " .CommonConstants::KEY_TOKEN."\r\n",
             ),
         ));
         return $context;
