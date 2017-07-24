@@ -81,6 +81,8 @@ h1{
   font-family: 'Oswald', Arial;
   color: #4caf50;
   font-weight: 500;
+  z-index: 1;
+  text-align: center;
 }
 .form button:hover,.form button:active,.form button:focus {
   color: white;
